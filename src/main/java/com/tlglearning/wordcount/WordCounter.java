@@ -9,6 +9,8 @@ import java.util.stream.Stream;
 
 public class WordCounter {
 
+
+
   private static final Set<String> BORING_WORDS = Set.of("and", "of", "the", "in", "on", "i", "then", "than", "out", "a", "if", "to");
   private final Map<String, Integer> counts = new HashMap<>();
   private int totalWords;
